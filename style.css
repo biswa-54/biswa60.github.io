@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600& display=swap');
+:root{
+    --yellow:#ffcc0d;
+    --black:#000;
+    --white:#fff;
+    --light-bg:#eee;
+    --border-bold:.5rem.solid.var(--black);
+    --border-light:.2rem.solid.var(--black);
+}
+*{
+    font-family: 'Rubik', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    background: url(landscape-gfa8bb8574_1920.jpg);
+    background-repeat: no-repeat;
+
+}
+.logo{
+    text-decoration: none;
+    font-size: 40px;
+    color:yellow;
+    margin: 10px 10px;
+}
+header{
+    display: flex;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 50%;
+}
+
+header .navbar a{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+header .navbar a:hover{
+    color:black;
+    background: yellow;
+    
+
+}
+header .logo span{
+    color: skyblue;
+}
+
+.aboutme h{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: greenyellow;
+}
+.aboutme h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: greenyellow;
+}
+.aboutme p{
+    margin: 3px 3px;
+    color: white;
+    text-decoration: none;
+
+}
+.image img{
+    height: 10%;
+    width: 10%;
+    margin-left:83rem;
+   
+}
+.button1{
+    color: black;
+    background: white;
+}
